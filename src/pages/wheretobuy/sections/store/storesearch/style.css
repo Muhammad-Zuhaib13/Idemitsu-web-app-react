@@ -1,0 +1,229 @@
+.main-search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.searching-section-where {
+  width: 501px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.filter-search-field {
+  width: 100%;
+  padding: 14px 0;
+  margin: 0;
+  position: relative;
+}
+
+.filter-search-btn {
+  width: 100%;
+  margin: 6px 0;
+}
+
+.search-results {
+  width: 50%;
+  background-color: #f7f7f7;
+  height: fit-content;
+  padding: 16px 10px;
+  position: relative;
+  top: -10rem;
+}
+.store-result-hr {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.change-view-radio-btn {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #717171;
+  margin-right: 1rem;
+}
+.change-view-radio-btn label {
+  cursor: pointer;
+  margin: 0 4px;
+  transition: all 0.5s ease;
+}
+.change-view-radio-btn input[type="radio"] {
+  accent-color: #e51637;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.list-label,
+.map-label {
+  padding: 0 4px;
+}
+.search-results::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 30px 0px 10px 0;
+  bottom: -22px;
+  left: -22px;
+  background-color: #e51637;
+  z-index: -1;
+}
+.store-details-list {
+  width: 94%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .change-view-radio-btn{
+    font-size: 12px;
+  }
+  .search-results {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-search-container {
+    justify-content: center;
+    padding:0 10px ;
+    gap:20px
+  }
+  .search-results {
+    top:12px;
+    left: 14px;
+    width: 401px;
+  }
+  .searching-section-where {
+    width: 401px;
+  }
+  .store-details-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:8px;
+  }
+  .change-view-radio-btn{
+    font-size: 12px;
+    margin: 0px 6px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .main-search-container {
+    justify-content: center;
+    padding:0 10px;
+    gap:20px;
+  }
+  .search-results {
+    top:0;
+    left: 14px;
+    width: 401px;
+  }
+  .searching-section-where {
+    width: 401px;
+  }
+  .store-details-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:8px;
+  }
+  .change-view-radio-btn{
+    font-size: 12px;
+    margin: 0px 6px;
+  }
+}
+@media only screen and (max-width:600px){
+  .main-search-container {
+    justify-content: flex-start;
+    padding:0 10px;
+    gap:20px;
+  }
+  .search-results {
+    top:0;
+    left: 0;
+    width: 401px;
+  }
+  .search-results::before{
+    width: 80px;
+    height: 80px;
+    left: -13px;
+    bottom: -13px;
+  }
+  .searching-section-where {
+    width: 401px;
+  }
+  .store-details-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:8px;
+  }
+  .change-view-radio-btn{
+    font-size: 12px;
+    margin: 0px 6px;
+  }
+}
+@media only screen and (max-width:410px){
+  .main-search-container {
+    justify-content: center;
+    padding:0 10px;
+    gap:20px;
+  }
+  .search-results {
+    top:0;
+    left: 0;
+    width: 301px;
+  }
+  .searching-section-where {
+    width: 301px;
+  }
+  .store-details-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:8px;
+  }
+  .change-view-radio-btn{
+    font-size: 12px;
+    margin: 0px 6px;
+  }
+  .search-results::before{
+    width: 80px;
+    height: 80px;
+    left: -13px;
+    bottom: -13px;
+  }
+}

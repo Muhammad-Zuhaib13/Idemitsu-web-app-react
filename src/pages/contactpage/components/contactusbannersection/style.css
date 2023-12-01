@@ -1,0 +1,71 @@
+.contact-us-banner-section {
+  width: 100%;
+  background-image:url("../../../../images/contactus-banner-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  background-position-x: 80%;
+}
+.contact-us-details {
+  width: 590px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+.side-contact-banner-section {
+  margin-left: 75px;
+  box-sizing: border-box;
+}
+.contact-card-text-body {
+  width: fit-content;
+}
+@media only screen and (max-width: 889px) {
+  .contact-us-banner-section {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-us-banner-section{
+    background-position: 80%;
+  }
+  .side-contact-banner-section {
+    margin-left: 1rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ 
+}
+@media only screen and (max-width: 600px) {
+  .contact-us-banner-section {
+    width: 100%;
+  }
+  .contact-us-details {
+    width: 100%;
+    margin: 0;
+  }
+  .side-contact-banner-section {
+    margin: 10px;
+  }
+  .contact-card-icon-img {
+    width: fit-content;
+    padding-right: 10px;
+  }
+  .contact-card-text-body {
+    width: fit-content;
+  }
+  .contact-card-text-body p {
+    font-size: 16px !important;
+    text-wrap: wrap !important;
+  }
+
+  .where-to-find{
+    width: 100%;
+  } 
+}
+@media only screen and (max-width: 320px) {
+  .contact-us-banner-section{
+    width: 100%;
+  }
+
+}

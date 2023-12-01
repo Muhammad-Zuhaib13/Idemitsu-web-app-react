@@ -1,0 +1,54 @@
+.sale-info-card {
+    /* width: 596px; */
+  }
+  .products-imgs-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 24px auto;
+    gap: 15px;
+    justify-content: center;
+}
+  .product-img {
+    width: 147px;
+    height: 120px;
+    display: flex;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .product-img img {
+    width: 64px;
+    height: 82px;
+  }
+  .contactus-info-group-bg .contact-card-text-body p, .contactus-info-group .contact-card-text-body p{
+    color: #000;
+  }
+  .contactus-info-group-bg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+
+  .contactus-info-group-bg .contact-card {
+    height: 102px;
+    width: 297px;
+    background: #e117371a;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    padding-left: 12px;
+  }
+  .red-border-img::before {
+    content: "";
+    background-image: url("../../../../../images/bottom-line-red.svg");
+    background-repeat: no-repeat;
+    width: 303px;
+    height: 9px;
+    position: absolute;
+    bottom: -26px;
+  }

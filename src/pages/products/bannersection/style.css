@@ -1,0 +1,56 @@
+.product-banner-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 494px;
+  background-position-x:84% ;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product-banner-section {
+    background-position-x: 96%;
+    background-size: cover;
+    height: 394px;
+  }
+}
+@media only screen and (max-width: 889px) {
+  .product-banner-section {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product-banner-section {
+    background-position-x: 96%;
+    height: 394px;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .product-banner-section {
+    width: 100% !important;
+    height: 294px;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .product-banner-section {
+    width: 100% !important;
+    height: 174px;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .product-banner-section {
+    width: 100% !important;
+    height: 174px;
+    background-size: cover;
+    background-position-x: -179px;
+  }
+}
+@media only screen and (max-width: 889px) {
+  .product-banner-section {
+    margin-top: 4rem;
+  }
+}

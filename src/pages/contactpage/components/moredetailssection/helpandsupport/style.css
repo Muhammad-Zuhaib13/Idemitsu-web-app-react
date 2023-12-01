@@ -1,0 +1,52 @@
+.red-border-img::before {
+    content: "";
+    background-image: url("../../../../../images/bottom-line-red.svg");
+    background-repeat: no-repeat;
+    width: 303px;
+    height: 9px;
+    position: absolute;
+    bottom: -26px;
+  }
+  .help-and-support-card {
+    /* width: 596px; */
+    /* margin: 60px auto 30px auto; */
+  }
+  .vehicle-img-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    padding-bottom: 12px;
+  }
+  .vehicle-img {
+    width: 176px;
+    height: 164px;
+    background-position:0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .vehicle-img-tag {
+    width: 171px;
+    height: 38px;
+    border-radius: 0px 0px 24px 24px;
+    background: linear-gradient(0deg, #222020 39.05%, rgba(91, 91, 91, 0) 130%);
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 125px;
+    margin-left: 4px;
+  }
+  .contactus-info-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 22px 10px 30px 10px;
+}
+ 
