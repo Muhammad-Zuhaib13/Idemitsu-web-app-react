@@ -11,7 +11,7 @@ import { useTheme, useMediaQuery } from "@mui/material";
 const TestimonialSlider = () => {
   const [prevBtn, setPrevBtn] =useState(null);
   const buttonPressed = (e) => {
-    const button = e.target.closest('.slider-btn-container div');
+    const button = e.target.closest('.testimonial-slider-btn-container div');
     if (button) {
       button.classList.add('ts_btn-active');
       if (prevBtn !== null && prevBtn !== button) {
@@ -54,8 +54,8 @@ const TestimonialSlider = () => {
                 const { id, comment, author_name, position } = item;
                 return (
                   <SwiperSlide className="swiper-slide" key={id} virtualIndex={index}>
-                    <div className="card" >
-                      <div className="card-img">
+                    <div className="testimonial-card card" >
+                      <div className="testimonial-card  card-img">
                         <img src={Img} alt="" />
                       </div>
                       <div className="card-body">
@@ -75,7 +75,7 @@ const TestimonialSlider = () => {
           </Swiper>
 
           {isMatch ? (
-            <div className="slider-btn-container" onClick={buttonPressed}>
+            <div className="testimonial-slider-btn-container" onClick={buttonPressed}>
               <div className="btn-prev">
                 <i className="fa-solid fa-chevron-left"></i>
               </div>
@@ -84,7 +84,7 @@ const TestimonialSlider = () => {
               </div>
             </div>
           ) : (
-            <div className="slider-btn-container" onClick={buttonPressed}>
+            <div className="testimonial-slider-btn-container" onClick={buttonPressed}>
               <div className="btn-prev">
                 <i className="fa-solid fa-chevron-right fa-rotate-270"></i>
               </div>

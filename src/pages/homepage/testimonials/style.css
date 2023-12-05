@@ -116,10 +116,16 @@
   position: relative;
   color: #5e6282;
 }
-.card .card-img {
+.testimonial-card .card-img {
   position: absolute;
-  top: -4em;
-  left: -4em;
+  top: -2em;
+  left: -3em;
+  width: 48px;
+  height: 48px;
+}
+.testimonial-card .card-img img {
+  width: 100%;
+  height: 100%;
 }
 .card-text {
   font-size: 16px;
@@ -159,8 +165,7 @@ p {
 .testimonials-slider-container .swiper-slide__content {
   height: 300px;
 }
-.testimonials-slider-container .slider-btn-container {
-  font-size: 1rem;
+.testimonials-slider-container .testimonial-slider-btn-container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -168,8 +173,12 @@ p {
   margin-left: 4rem;
   margin-top: 4rem;
 }
-.ts_btn-active{
-  color:#BCB7C2 !important;
+.testimonial-slider-btn-container .btn-prev i,
+.btn-next i {
+  font-size: 1rem;
+}
+.ts_btn-active {
+  color: #bcb7c2 !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonials-section {
@@ -184,7 +193,7 @@ p {
   .testimonials-slider-container {
     margin-left: 0rem;
   }
-  .testimonials-slider-container .slider-btn-container {
+  .testimonials-slider-container .testimonial-slider-btn-container {
     margin-left: 0;
   }
 }
@@ -204,7 +213,7 @@ p {
     overflow: hidden;
     margin-left: 0rem;
   }
-  .testimonials-slider-container .slider-btn-container {
+  .testimonials-slider-container .testimonial-slider-btn-container {
     margin-left: 0;
     margin-top: 0;
     flex-direction: row;
@@ -234,13 +243,14 @@ p {
     line-height: normal;
     font-size: 14px;
   }
-  .card-img img {
-    width: 48px;
-  }
-  .card .card-img {
+  .testimonial-card .card-img {
     position: absolute;
     top: -3em;
     left: -1em;
+  }
+  .testimonial-card .card-img img {
+    width: auto;
+    height: auto;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -272,8 +282,8 @@ p {
   .testimonials-slider-container .swiper-slide.swiper-slide-next {
     left: 1.2rem;
     top: 18.5rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px 0px,
+      rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     border: 1px solid rgba(247, 247, 247, 1);
   }
-
 }
