@@ -1,0 +1,173 @@
+.filter-oil-card-section {
+  width: 261px;
+  height: auto;
+  padding: 10px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "poppins", "sanserif";
+}
+.btn-go {
+  width: 94%;
+  padding: 8px;
+  background-color: #e11737;
+  border: 1px solid #7d7d7d;
+  color: #ffffff;
+  border-radius: 18px;
+  font-weight: 700;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-clear-filter {
+  width: 94%;
+  padding: 8px;
+  cursor: pointer;
+  color: #7d7d7d;
+  border: 1px solid #7d7d7d;
+  background-color: transparent;
+  border-radius: 18px;
+  margin-top: 8px;
+  margin-left: 0 !important;
+  font-weight: 500;
+  transition: all 1s;
+  position: relative;
+  outline: none;
+  z-index: 1;
+  overflow: hidden;
+}
+.btn-clear-filter::before{
+  content: "";
+	width: 100%;
+	height: 100%;
+	background: #e11737;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+	transition: all 1s;
+	transform: translateX(-100%);
+}
+button.btn-clear-filter:hover::before{
+	transform:translateX(0);
+}
+button.btn-clear-filter:hover{
+	color:#fff;
+  font-weight: 700;
+}
+.css-46bh2p-MuiCardContent-root {
+  padding: 8px 16px;
+}
+/* Checkbox custom styling */
+.container-label {
+  display: block;
+  position: relative;
+  padding-left: 28px;
+  font-family: "poppins";
+  font-weight: "500";
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 22.5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 21px;
+  width: 21px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.containerr:hover input ~ .checkmark {
+  background-color: #e11737;
+}
+
+.container-label input:checked ~ .checkmark {
+  background-color: #e11737;
+  outline: 2px solid #e11737;
+  outline-offset: max(2px, 0.15em);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container-label input:checked ~ .checkmark:after {
+  display: block;
+}
+.filter-checkbox {
+  background-color: #ffff !important;
+}
+.filter-checkbox:hover {
+  background-color: #ffff !important;
+}
+button.MuiButtonBase-root.MuiCardActionArea-root.css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root:hover {
+  background-color: #ffff !important;
+}
+.container-label .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .filter-oil-card-section {
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .filter-oil-card-section {
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .filter-oil-card-section {
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .filter-oil-card-section {
+    width: 96%;
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .filter-oil-card-section {
+    width: 100%;
+    border: transparent;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.filter-checkbox.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    box-shadow: none !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .filter-oil-card-section {
+    width: 100%;
+    border: transparent;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.filter-checkbox.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    box-shadow: none;
+}
+}

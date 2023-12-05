@@ -1,0 +1,39 @@
+.about-banner {
+  background-position: center;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition:  3s ease-in-out;
+  overflow: hidden;
+  background-color: #000;
+}
+.about-banner:hover{
+  background-position: calc(100% - 200px);
+  background-color: black;
+  transition:  3s ease-in-out;
+}
+.about-banner-para {
+  width: 500px;
+}
+.about-banner-content {
+  margin-left: 100px;
+}
+@media only screen and (max-width: 889px) {
+  .about-banner {
+    margin-top: 4rem;
+  }
+  .about-banner:hover{
+    background-position: calc(100% - -90px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-banner-para {
+    width: 100%;
+  }
+  .about-banner-content {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 8px;
+  }
+}

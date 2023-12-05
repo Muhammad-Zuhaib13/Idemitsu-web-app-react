@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+::selection {
+    background: #6d50e2;
+    color: #fff;
+}
+.company-details-headings{
+    position: relative;
+    width: 100%;
+    margin: 1.3rem 0;
+    padding: 0 2rem;
+}
+.company-details-headings::after {
+    content: "";
+    position: absolute;
+    width: 166px;
+    height: 172px;
+    right: 2rem;
+    top: 2rem;
+    background: url("../../../../images/stars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+
+
+
+
+@media only screen and (max-width:1200px){
+    .company-details-headings::after {
+        width: 146px;
+        height: 152px;
+        right: 2rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .head-office-content {
+        flex-wrap: wrap;
+    } 
+    .head-office-img-resp{
+        width:100%;
+    }
+    .head-offce-img {
+        width: 100%;
+        height: 400px;
+    }  
+}
+@media only screen and (max-width: 767px){
+    .head-office-content {
+        flex-wrap: wrap;
+    } 
+    .head-office-img-resp{
+        width:100%;
+    }
+    .head-offce-img {
+        width: 100%;
+        height: 400px;
+    } 
+}
+@media only screen and (max-width: 600px) {
+    .company-details-headings::after {
+        width: 136px;
+        height: 142px;
+        right: 0;
+    }
+    .company-detail-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .company-detail-container {
+        padding: 0px 0px 0px 0px;
+        margin: 0 10px;
+    }
+    .company-details-headings{
+        font-size: 24px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .company-details-headings h5{
+        font-size: 24px;
+    }
+    .company-detail-content .text-content {
+        width: 80%;
+    }
+    .head-office-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .company-office-container {
+        margin: 0 10px;
+    }
+    .head-office-content {
+        flex-wrap: wrap;
+    } 
+    .head-office-img-resp{
+        width:100%;
+    }
+    .head-offce-img {
+        width: 100%;
+        height: 400px;
+    } 
+}

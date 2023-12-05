@@ -1,0 +1,301 @@
+.subscribe-section {
+  background-color: rgba(246, 38, 68, 0.1);
+  width: 78%;
+  height: 407px;
+  border-radius: 129px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+form.MuiBox-root.css-0 {
+  padding-top: 16px;
+  margin: 0px;
+  padding-bottom: 80px;
+}
+.subscribe-section::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/contactus-subscirbe-plane.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+.subscribe-section::after {
+  content: "";
+  width: 166px;
+  height: 172px;
+  background-image: url("../../images/contactus-subrcibe-stars.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: -108px;
+  bottom: -66px;
+}
+
+.circle-img-before {
+  position: relative;
+}
+.circle-img-before::before {
+  content: "";
+  width: 264px;
+  height: 352px;
+  background-image: url("../../images/contactus-subscribe-heading-circle.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.subscribe-input-and-button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 240px;
+  z-index: 10;
+}
+.subscribe-input-and-button::before {
+  content: "";
+  width: 480px;
+  height: 480px;
+  background-image: url("../../images/contactus-subscribe-input-circle.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -88px;
+  bottom: -118px;
+  z-index: -10;
+}
+.subscriber-email-input {
+  width: 421px;
+  height: 68px;
+  position: relative;
+}
+.subscriber-email-input::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 6 free";
+  font-size: 18px;
+  color: #39425d;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  filter: opacity(0.7);
+  padding: 1.5rem 3rem;
+}
+.subscriber-email-input input[type="email"] {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: transparent;
+  outline: transparent;
+  padding-left: 74px;
+  box-sizing: border-box;
+  color: #39425d;
+  font-size: 14px;
+}
+.subscriber-email-input input[type="email"]:focus {
+  font-size: 16px;
+}
+.subscriber-email-input input[type="email"]:active {
+  font-size: 16px;
+  color: #39425d;
+}
+
+.subscribe-btn {
+  width: 180px;
+  height: 68px;
+  border-radius: 10px;
+  background: #080808;
+  outline: transparent;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 26px;
+  cursor: pointer;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+.subscribe-btn::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #e11737;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+	transition: all 1s;
+	transform: translateX(-100%);
+}
+.subscribe-btn:hover{
+  background-color: transparent;
+  border: transparent;
+  outline: transparent;
+}
+.subscribe-btn:hover::before{
+	transform:translateX(0);
+}
+.subscribe-h2 {
+  margin: 0;
+  color: #e51637;
+  font-family: Poppins, sans-serif;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 54px;
+  padding: 76px 54px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .subscribe-h2 {
+    font-size: 30px;
+  }
+  .subscribe-input-and-button {
+    margin-left: 0px;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .subscribe-h2 {
+    font-size: 25px !important;
+  }
+  .subscribe-input-and-button {
+    margin-left: 0px;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .subscribe-h2 {
+    font-size: 18px !important;
+  }
+  .subscribe-input-and-button {
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .subscriber-email-input {
+    width: auto;
+  }
+  .subscribe-btn {
+    width: fit-content;
+    padding: 0 20px;
+  }
+  .subscribe-section::after {
+    right: -68px;
+    bottom: -78px;
+  }
+  .subscribe-section::after {
+    width: 136px;
+    height: 142px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .subscribe-h2 {
+    font-size: 18px !important;
+    padding: 80px 0px 40px 0px;
+    line-height: 44px;
+  }
+  .subscribe-input-and-button {
+    flex-wrap: nowrap;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .subscriber-email-input {
+    width: auto;
+  }
+  .subscribe-btn {
+    width: auto;
+    padding: 0 20px;
+  }
+  .subscribe-section::after {
+    content: "";
+    width: 126px;
+    height: 132px;
+    right: -60px;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .subscribe-section {
+    width: fit-content;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 70%;
+  }
+  .subscribe-h2 {
+    font-size: 16px !important;
+    padding: 60px 34px;
+    line-height: 34px;
+  }
+  .subscribe-input-and-button {
+    gap: 0px;
+    flex-direction: column;
+    padding: 0px;
+    width: 78%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  .subscriber-email-input {
+    margin-bottom: 14px;
+  }
+  .subscribe-btn {
+    margin-left: 0px;
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-sm-12.MuiGrid-grid-md-12.MuiGrid-grid-lg-12.css-p1jgym-MuiGrid-root {
+    width: 100%;
+  }
+  .subscribe-input-and-button::before {
+    width: 100%;
+    height: 100%;
+    left: -20%;
+    bottom: -39%;
+    background-size: contain;
+  }
+  .circle-img-before::before {
+    width: 220px;
+  }
+  .subscriber-email-input input[type="email"] {
+    padding-left: 3rem;
+  }
+  .subscriber-email-input::before {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .subscriber-email-input::before {
+    padding: 1.5rem;
+  }
+  .subscriber-email-input input[type="email"] {
+    padding-left: 3rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .subscriber-email-input::before {
+    padding-left: 1.5rem;
+  }
+  .subscriber-email-input input[type="email"] {
+    padding-left: 3rem;
+  }
+  .circle-img-before::before {
+    width: 210px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .subscriber-email-input::before {
+    padding-left: 0.5rem;
+  }
+  .subscriber-email-input input[type="email"] {
+    padding-left: 2rem;
+  }
+}

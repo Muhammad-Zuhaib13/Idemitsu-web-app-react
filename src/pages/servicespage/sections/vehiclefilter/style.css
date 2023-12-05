@@ -1,0 +1,281 @@
+.services-product-filter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f9f9f9;
+  padding: 3rem 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.services-filter-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.services-img {
+  width: 297px;
+  height: 257px;
+  overflow: hidden;
+  border-radius: 24px;
+}
+.services-img img {
+  width: 100%;
+  height: 100%;
+  transition: transform 2s, filter 2s ease-in-out;
+}
+.services-img:hover img {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+.services-img-group {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-search-main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+.service-search-main:after {
+  content: "";
+  position: absolute;
+  width: 153px;
+  height: 166px;
+  background-image: url("../../../../images/stars.png");
+  background-repeat: no-repeat;
+  top: -6rem;
+  right: -5rem;
+  z-index: -1;
+}
+.searching-section-services {
+  width: 588px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.searching-section-services .filter-search-field {
+  width: 289px;
+  padding: 14px 0;
+  margin: 0;
+  color: #7d7d7d;
+  position: relative;
+}
+
+.searching-section-services .filter-search-btn {
+  width: 100%;
+  margin: 6px 0;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .services-img {
+    width: 277px;
+    height: 237px;
+  }
+  .service-search-main:after {
+    top: -5rem;
+    right: -1rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-img {
+    width: 227px;
+    height: 217px;
+  }
+  .service-search-main:after {
+    top: -2rem;
+    right: 1rem;
+  }
+
+  .searching-section-services {
+    width: 500px;
+  }
+  .searching-section-services .filter-search-field {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .services-product-filter {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .services-img {
+    width: 257px;
+    height: 217px;
+  }
+  .service-search-main:after {
+    top: 0;
+    right: -6rem;
+  }
+  .searching-section-services {
+    width: 550px;
+  }
+  .service-search-main {
+    padding-left: 2rem;
+  }
+  .searching-section-services .filter-search-field {
+    width: 48%;
+  }
+  .searching-section-services select.custom-select {
+    font-size: 14px;
+  }
+  /* .searching-section-services .filter-search-field:after {
+    padding: 32px;
+  } */
+  .service-search {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .services-product-filter {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .services-img {
+    width: 227px;
+    height: 217px;
+  }
+  .service-search-main:after {
+    top: 0;
+    right: -6rem;
+  }
+  .searching-section-services {
+    width: 550px;
+  }
+  .service-search-main {
+    padding-left: 0;
+  }
+  .searching-section-services .filter-search-field {
+    width: 48%;
+  }
+  .service-search {
+    margin-right: 0;
+  }
+  /* .searching-section-services .filter-search-field:after {
+    padding: 32px;
+  } */
+  .searching-section-services select.custom-select {
+    font-size: 13px;
+  }
+  .services-chose-oil-heading {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .searching-section-services {
+    width: 410px;
+    margin: 1rem;
+  }
+  .services-product-filter {
+    flex-wrap: wrap;
+  }
+  .services-img {
+    width: 257px;
+    height: 217px;
+  }
+  .service-search-main:after {
+    top: 0;
+    right: 4rem;
+  }
+  .service-search-main {
+    padding-left: 0;
+  }
+ 
+  .searching-section-services .filter-search-field {
+    width: 100%;
+  }
+  .service-search {
+    margin-right: 0;
+  }
+  /* .searching-section-services .filter-search-field:after {
+    padding: 32px;
+  } */
+  .searching-section-services select.custom-select {
+    font-size: 14px;
+  }
+  .services-chose-oil-heading {
+    margin: 1rem 1.5rem;
+    text-align: left;
+  }
+  .vehicle-finder {
+    padding: 0px;
+  }
+  .vehicle-finder-img {
+    max-width: 8em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .services-img {
+    width: 187px;
+    height: 167px;
+  }
+  .services-img-group {
+    gap: 10px;
+  }
+  .searching-section-services select.custom-select {
+    font-size: 16px;
+  }
+  .searching-section-services .filter-search-field {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .searching-section-services .filter-search-field {
+    width: 100%;
+  }
+  .searching-section-services {
+    width: 350px;
+    margin: auto;
+  }
+  .searching-section-services .filter-search-btn {
+    justify-content: flex-start;
+  }
+  .services-chose-oil-heading {
+    margin: 1rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .searching-section-services .filter-search-field {
+    width: 100%;
+  }
+  .services-img {
+    width: 157px;
+    height: 137px;
+  }
+  .searching-section-services {
+    width: 301px;
+    margin: auto;
+  }
+  .searching-section-services .filter-search-btn {
+    justify-content: flex-start;
+  }
+  .services-chose-oil-heading {
+    margin: 1rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .searching-section-services {
+    width: 201px;
+    margin: 1rem;
+  }
+  .searching-section-services button.search-btn {
+    width: 100%;
+  }
+}

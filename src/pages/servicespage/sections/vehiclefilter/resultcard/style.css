@@ -1,0 +1,120 @@
+.services-product-search-container {
+  width: 80%;
+  margin: 0 auto;
+  height: fit-content;
+  background: transparent;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  transition: all 1s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.services-search-heading {
+  font-family: "Volkhov";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 34px 44px;
+  color: #777575;
+}
+.services-search-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  box-shadow: 3px 6px 20px -2px #00000017;
+  background: #fdfdfd;
+  font-family: "Poppins";
+  padding: 34px 44px;
+  position: relative;
+}
+.services-search-card::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 30px 0px 10px 0;
+  bottom: -22px;
+  left: -22px;
+  background-color: #e51637;
+  z-index: -1;
+}
+
+.services-search-card-img {
+}
+.services-search-card-text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.services-search-card-text h3 span {
+  color: #e11737;
+}
+.services-search-card-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #686767;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .services-search-card {
+        align-items: flex-start;
+    }   
+}
+@media only screen and (max-width: 767px){
+    .services-search-card {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px){
+    .services-search-card {
+        flex-direction: column;
+    }
+    .services-search-heading {
+        font-size: 18px;
+    }
+    .services-search-card-text p {
+        font-size: 14px;
+    }
+    .services-search-card-text h3 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .services-search-card {
+        flex-direction: column;
+    }
+    .services-search-heading {
+        font-size: 16px;
+    }
+    .services-search-card-text p {
+        font-size: 12px;
+    }
+    .services-search-card-text h3 {
+        font-size: 16px;
+    }
+}
+

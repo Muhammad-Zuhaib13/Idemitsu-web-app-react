@@ -1,0 +1,65 @@
+.product-details-table-section-two {
+    font-family: "Poppins";
+    width: 100%;
+    padding: 0 50px;
+    margin: 50px 0;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.text-color-dark_grey {
+    color: #666363 !important;
+}
+
+.product-details-table-heading {
+    font-family: "Volkhov";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.product-details-table-heading span:nth-child(odd) {
+    color: #E11737;
+}
+
+.product-details-table-heading span:nth-child(even) {
+    color: #777575;
+}
+
+.product-details-table {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 3.5rem;
+}
+
+table.pd-table-section {
+    width: 100%;
+    border-collapse: collapse;
+    transition: all 0.5 ease-in-out;
+}
+
+table.pd-table-section td,
+th {
+    padding: 1rem 0;
+    cursor: default;
+}
+
+table.pd-table-section th {
+    color: #777575;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    padding-bottom: 2rem;
+}
+
+table.pd-table-section td {
+    border-bottom: 1px solid #CFCCCC;
+    color: #000000
+}

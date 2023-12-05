@@ -1,0 +1,44 @@
+.contact-card {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: "Poppins";
+    margin: 20px 0;
+  }
+  .contact-card-icon-img i {
+    width: 62px;
+    height: 62px;
+    font-size: 17px;
+    color: #e11737;
+    border: 2px solid #e11737;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-card-text-body {
+    padding: 0 8px;
+  }
+  .contact-card-text-body h4 {
+    font-family: "Poppins";
+    color: #e11737;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .contact-card-text-body p {
+    font-family: "Poppins";
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 10px;
+  }
+  

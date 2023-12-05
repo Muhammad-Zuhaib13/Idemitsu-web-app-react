@@ -1,0 +1,139 @@
+.home-services-card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.home-services-card-heading {
+  position: relative;
+  width: 100%;
+  margin: 1.3rem 0;
+}
+.home-services-card-heading::after {
+  content: "";
+  position: absolute;
+  width: 166px;
+  height: 172px;
+  right: 2rem;
+  top: 0;
+  background: url("../../../images/stars.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .home-service-card {
+    width: 227px;
+    margin: 0 1rem;
+  }
+  .hs_card-text p {
+    padding: 0.2rem 1.8rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .home-service-card {
+    width: 227px;
+    margin: 0 0.2rem;
+  }
+  .hs_card-text p {
+    padding: 0.2rem 1.4rem;
+  }
+  .home-services-card-container{
+    margin: 1rem 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-services-card-container {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .home-service-card {
+    width: 227px;
+    margin: 0;
+  }
+  .hs_card-text p {
+    padding: 0.2rem 1.4rem;
+  }
+  .hs_card-body::before {
+    width: 80px;
+    height: 80px;
+    bottom: -24px;
+    left: -24px;
+    border-radius: 22px 0 10px 0;
+  }
+  .home-services-card-container{
+    margin: 1rem 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home-services-card-container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  .home-service-card {
+    width: 227px;
+    margin: 0;
+  }
+  .hs_card-text p {
+    padding: 0.2rem 1.4rem;
+  }
+  .hs_card-body::before {
+    width: 80px;
+    height: 80px;
+    bottom: -24px;
+    left: -24px;
+    border-radius: 22px 0 10px 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home-services-card-heading::after {
+    width: 136px;
+    height: 142px;
+  }
+  .home-services-card-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  .home-service-card {
+    width: 267px;
+    margin: 0;
+  }
+  .hs_card-text p {
+    padding: 0.2rem 3.4rem;
+    font-size: 16px;
+  }
+  .hs_card-body::before {
+    width: 80px;
+    height: 80px;
+    bottom: -24px;
+    left: -24px;
+    border-radius: 22px 0 10px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home-services-card-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  .home-service-card {
+    width: 227px;
+    margin: 0;
+  }
+  .hs_card-text p {
+    padding: 0.2rem 1.4rem;
+  }
+  .hs_card-body::before {
+    width: 80px;
+    height: 80px;
+    bottom: -24px;
+    left: -24px;
+    border-radius: 22px 0 10px 0;
+  }
+}

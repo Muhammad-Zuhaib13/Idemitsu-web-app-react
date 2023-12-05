@@ -1,0 +1,148 @@
+[
+  [
+    {
+      "id": "1",
+      "store_name": "India Store",
+      "location": "Residential Areas,Mumbai,India",
+      "country": "India",
+      "city_name": "Mumbai",
+      "areas": [
+        {
+          "area_name": "Mumbai Town1",
+          "shops": [
+            { "shop_name": "Shop 1 Mumbai Town1", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Mumbai Town1", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d241316.67292862717!2d72.7163732876547!3d19.082502004411452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1691162740472!5m2!1sen!2s" 
+        },
+        {
+          "area_name": "Mumbai Town2",
+          "shops": [
+            { "shop_name": "Shop 1 Mumbai Town2", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Mumbai Town2", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d241316.67292862717!2d72.7163732876547!3d19.082502004411452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1691162740472!5m2!1sen!2s" 
+        }
+      ]
+     
+    }
+  ],
+  [
+    {
+      "id": "2",
+      "store_name": "India Store",
+      "location": "Residential Areas,Mumbai,India",
+      "country": "India",
+      "city_name": "Delhi",
+      "areas": [
+        {
+          "area_name": "Delhi Town1",
+          "shops": [
+            { "shop_name": "Shop 1 Delhi Town1", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Delhi Town1", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510173255!2d76.76357406682071!3d28.644287356528725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi%2C%20India!5e0!3m2!1sen!2s!4v1691163101229!5m2!1sen!2s"
+        },
+        {
+          "area_name": "Delhi Town2",
+          "shops": [
+            { "shop_name": "Shop 1 Delhi Town2", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Delhi Town2", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510173255!2d76.76357406682071!3d28.644287356528725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi%2C%20India!5e0!3m2!1sen!2s!4v1691163101229!5m2!1sen!2s"
+        }
+      ]
+      
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "store_name": "China Store",
+      "location": "Residential Areas,Mumbai,India",
+      "country": "China",
+      "city_name": "Beijing",
+      "areas": [
+        {
+          "area_name": "Beijing Town1",
+          "shops": [
+            { "shop_name": "Shop 1 Beijing Town1", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Beijing Town2", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391566.3391962266!2d116.39745889999999!3d39.9388838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f05296e7142cb9%3A0xb9625620af0fa98a!2sBeijing%2C%20China!5e0!3m2!1sen!2s!4v1691153948332!5m2!1sen!2s"
+        },
+        {
+          "area_name": "Beijing Town2",
+          "shops": [
+            { "shop_name": "Shop 1 Beijing Town2", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Beijing Town2", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391566.3391962266!2d116.39745889999999!3d39.9388838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f05296e7142cb9%3A0xb9625620af0fa98a!2sBeijing%2C%20China!5e0!3m2!1sen!2s!4v1691153948332!5m2!1sen!2s"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "4",
+      "store_name": "Pakistan Store",
+      "location": "Residential Areas,Mumbai,India",
+      "country": "Pakistan",
+      "city_name": "Karachi",
+      "areas": [
+        {
+          "area_name": "Karachi Town1",
+          "shops": [
+            { "shop_name": "Shop 1 Karachi Town1", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Karachi Town1", "shop_location": "Location 2" },
+            { "shop_name": "Shop 3 Karachi Town1", "shop_location": "Location 3" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924189.047811708!2d66.45617170167442!3d25.199395684875896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb35b7f5bfd6e89%3A0xc463ba9517671d59!2sKarachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1691163316200!5m2!1sen!2s"
+        },
+        {
+          "area_name": "Karachi Town2",
+          "shops": [
+            { "shop_name": "Shop 1 Karachi Town2", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Karachi Town2", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924189.047811708!2d66.45617170167442!3d25.199395684875896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb35b7f5bfd6e89%3A0xc463ba9517671d59!2sKarachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1691163316200!5m2!1sen!2s"
+        },
+        {
+          "area_name": "Karachi Town3",
+          "shops": [
+            { "shop_name": "Shop 1 Karachi Town3", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Karachi Town3", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924189.047811708!2d66.45617170167442!3d25.199395684875896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb35b7f5bfd6e89%3A0xc463ba9517671d59!2sKarachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1691163316200!5m2!1sen!2s"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "5",
+      "store_name": "Pakistan Store",
+      "location": "Residential Areas,Mumbai,India",
+      "country": "Pakistan",
+      "city_name": "Lahore",
+      "areas": [
+        {
+          "area_name": "Lahore Town1",
+          "shops": [
+            { "shop_name": "Shop 1 Lahore Town1", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Lahore Town1", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.22737606487!2d74.00473401727915!3d31.483103668660313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1691163405566!5m2!1sen!2s"
+        },
+        {
+          "area_name": "Lahore Town2",
+          "shops": [
+            { "shop_name": "Shop 1 Lahore Town2", "shop_location": "Location 1" },
+            { "shop_name": "Shop 2 Lahore Town2", "shop_location": "Location 2" }
+          ],
+          "stores_google_map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.22737606487!2d74.00473401727915!3d31.483103668660313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1691163405566!5m2!1sen!2s"
+        }
+      ]
+    }
+  ]
+]

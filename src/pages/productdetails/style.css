@@ -1,0 +1,7 @@
+.products-details-page-bg{
+    background-image: url("../../images/products-background-abstract.png");
+    background-repeat: no-repeat;
+    background-position: -6rem 10rem;
+    background-size: cover;
+    scroll-behavior: smooth;
+}

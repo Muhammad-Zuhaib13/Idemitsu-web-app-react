@@ -1,0 +1,198 @@
+.search-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.where-to-buy-search-headings {
+  width: fit-content;
+  margin: 1.5rem 5.5rem;
+}
+.where-to-buy-search-headings h4 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7d7d;
+}
+.tab-btn-active {
+  background: #595959 !important;
+  color: #fff !important;
+}
+.where-to-buy-search-headings h2 {
+  font-family: "Volkhov";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e11737;
+}
+
+#buttons-tab span.MuiTabs-indicator.css-lafep3-MuiTabs-indicator {
+  display: none !important;
+}
+button#simple-tab-0,
+button#simple-tab-1,
+button#simple-tab-2 {
+  padding: 14px 22px;
+  margin: 0 8px 0 0;
+  border: 1px solid #7d7d7d;
+  border-radius: 24px;
+  color: #7d7d7d;
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+button#simple-tab-0:active,
+button#simple-tab-1:active,
+button#simple-tab-2:active {
+  color: #fff !important;
+  background-color: #595959;
+}
+button#simple-tab-0:focus,
+button#simple-tab-1:focus,
+button#simple-tab-2:focus {
+  color: #fff !important;
+  background-color: #595959;
+}
+div#buttons-tab {
+  margin: 0 4.5rem;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .where-to-buy-search-headings {
+    margin: 1.5rem 4.5rem;
+  }
+  div#buttons-tab {
+    margin: 0 4.5rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .where-to-buy-search-headings {
+    margin: 1.5rem 1.5rem;
+  }
+  div#buttons-tab {
+    margin: 0 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .where-to-buy-search-headings {
+    margin: 1.5rem 1.5rem;
+  }
+  div#buttons-tab {
+    margin: 0 1.5rem;
+  }
+  .search-main-container {
+    align-items: center;
+  }
+  button#simple-tab-0,
+  button#simple-tab-1,
+  button#simple-tab-2 {
+    padding: 14px 12px;
+    margin: 0 8px 0 0;
+    color: #7d7d7d;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .where-to-buy-search-headings {
+    margin: 1.5rem 1.5rem;
+  }
+  .search-main-container {
+    align-items: center;
+  }
+  div#buttons-tab {
+    margin: 0 1.5rem;
+  }
+  button#simple-tab-0,
+  button#simple-tab-1,
+  button#simple-tab-2 {
+    padding: 14px 12px;
+    margin: 0 8px 0 0;
+    color: #7d7d7d;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div#buttons-tab {
+    width: 401px;
+  }
+  div#buttons-tab .css-heg063-MuiTabs-flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-main-container {
+    align-items: unset;
+  }
+  button#simple-tab-0,
+  button#simple-tab-1,
+  button#simple-tab-2 {
+    max-width: 100% ;
+    margin: 0;
+    width: 401px;
+  }
+}
+@media only screen and (min-width: 410px) and (max-width: 480px){
+  div#buttons-tab {
+    width: 401px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  button#simple-tab-0, button#simple-tab-1, button#simple-tab-2 {
+    max-width: 100%;
+    margin: 0;
+}
+}
+@media only screen and (max-width: 410px) {
+  div#buttons-tab {
+    width: 301px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  div#buttons-tab .css-heg063-MuiTabs-flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  button#simple-tab-0,
+  button#simple-tab-1,
+  button#simple-tab-2 {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  div#buttons-tab {
+    width: calc(100% - 28px);
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  button#simple-tab-0,
+  button#simple-tab-1,
+  button#simple-tab-2 {
+    max-width: 100%;
+  }
+  
+  div#buttons-tab {
+    margin: 0 auto;
+  }
+  div#buttons-tab .css-heg063-MuiTabs-flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

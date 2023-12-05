@@ -1,0 +1,248 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.sales-info-section {
+  box-shadow: -8px 4px 27px 2px #1717171a;
+  margin-left: 100px;
+  background-color: #ffffff;
+  border-radius: 24px 0 0 24px;
+  position: relative;
+  padding: 50px 10px 30px 20px;
+}
+
+.sales-info-section::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #e11737;
+  position: absolute;
+  border-radius: 30px 0px 10px 0;
+  bottom: -20px;
+  left: -25px;
+  z-index: -1;
+}
+.help-and-support-section {
+  box-shadow: 7px 8px 5px 1px #0000001a;
+  margin-right: 100px;
+  background-color: #fefbfb;
+  border-radius: 0 24px 24px 0;
+  position: relative;
+  padding: 50px 10px 30px 20px;
+}
+.help-and-support-section::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #e11737;
+  position: absolute;
+  border-radius: 30px 0px 10px 0;
+  top: -20px;
+  right: -20px;
+  z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+  .sales-info-section,
+  .help-and-support-section {
+    width: 94%;
+    margin: 10px auto;
+  }
+  .sales-info-section::before {
+    bottom: -14px;
+    left: -14px;
+  }
+  .help-and-support-section::before {
+    border-radius: 0 30px 10px 0;
+    margin-top: 35.5rem !important;
+    right: -10px;
+  }
+  .vehicle-img-group {
+    gap: 0px;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sales-info-section,
+  .help-and-support-section {
+    width: 94%;
+    margin: 10px auto;
+  }
+  .heading {
+    padding: 10px;
+  }
+.MuiTypography-root.MuiTypography-h2.css-1bk2vsc-MuiTypography-root {
+    padding-right: 5px !important;
+}
+  .vehicle-img-group {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 12px;
+    align-content: center;
+    justify-content: space-evenly;
+    width: inherit;
+    overflow-x: hidden;
+  }
+  .vehicle-img {
+    width: 32%;
+    border-radius: 30px;
+    background-position-x:center ;
+  }
+  .vehicle-img-tag {
+    width: auto;
+  }
+  .contactus-info-group-bg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 12px;
+    justify-content: flex-start;
+  }
+  .contactus-info-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 22px 10px 30px 10px;
+  }
+  .sales-info-section::before {
+    bottom: -10px;
+    left: -10px;
+  }
+  .help-and-support-section::before {
+    border-radius: 0 30px 10px 0;
+    top: 15%;
+    right: -10px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 500px){
+  .help-and-support-section::before {
+    border-radius: 0 30px 10px 0;
+    top: 18%;
+  }
+}
+@media only screen and (min-width:351px) and (max-width:449px){
+  .help-and-support-section::before {
+    border-radius: 0 30px 10px 0;
+    top: 20% !important;
+  }
+}
+@media only screen and (min-width:321px) and (max-width:350px){
+  .help-and-support-section::before {
+    top: 23% !important;
+}
+} 
+@media only screen and (max-width: 320px) {
+  .sales-info-section,
+  .help-and-support-section {
+    width: 94%;
+  }
+  .heading {
+    padding: 0px;
+  }
+  .products-imgs-group {
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactus-info-group-bg .contact-card {
+    width: inherit;
+  }
+  .red-border-img::before {
+    width: 240px;
+    background-size: contain;
+  }
+  .help-and-support-section::before {
+    top: 27% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sales-info-section,
+  .help-and-support-section {
+    width: 94%;
+    margin: 10px auto;
+  }
+  .vehicle-img-group {
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+  .sales-info-section::before {
+    bottom: -14px;
+    left: -14px;
+  }
+  .help-and-support-section::before {
+    border-radius: 0 30px 10px 0;
+    margin-top: 34rem !important;
+    right: -10px;
+  }
+
+  .contactus-info-group,
+  .contactus-info-group-bg {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sales-info-section,
+  .help-and-support-section {
+    width: 94%;
+    margin: 10px auto;
+  }
+  .vehicle-img-group {
+    gap: 0px;
+    justify-content: space-evenly;
+  }
+  .sales-info-section::before {
+    bottom: -14px;
+    left: -14px;
+  }
+  .help-and-support-section::before {
+    border-radius: 0 30px 10px 0;
+    margin-top: 34rem !important;
+    right: -10px;
+  }
+
+  .contactus-info-group,
+  .contactus-info-group-bg {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .help-and-support-section {
+    margin-right: 34px;
+  }
+  .sales-info-section {
+    margin-left: 34px;
+  }
+  .contact-card-text-body p {
+    font-size: 19px;
+  }
+  .contactus-info-group {
+    gap: 0px;
+  }
+  .sales-info-section::before {
+    bottom: -16px;
+    left: -5px;
+  }
+  .help-and-support-section::before {
+    top: -15px;
+    right: -12px;
+  }
+  .css-j7g5hp-MuiTypography-root {
+    text-align: justify !important;
+  }
+  .vehicle-img-group {
+    gap: 0px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1420px) {
+  .contact-card-text-body p {
+    font-size: 20px;
+  }
+  .vehicle-img-group {
+    gap: 10px;
+  }
+}

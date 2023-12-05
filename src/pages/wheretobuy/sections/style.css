@@ -1,0 +1,32 @@
+.where-to-buy-banner-headings {
+  margin-left: 5rem;
+}
+@media only screen and (max-width: 889px) {
+  .where-to-buy-banner {
+    margin-top: 5rem !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .where-to-buy-banner-headings {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .where-to-buy-banner-headings {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .where-to-buy-banner-headings {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .where-to-buy-banner-img img {
+    width: 90%;
+  }
+  .where-to-buy-banner-headings {
+    padding-left: 8px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "id":"01",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-2.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    },
+    {
+        "id":"02",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-2.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    },
+    {
+        "id":"03",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-3.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    },
+    {
+        "id":"04",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-4.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    },
+    {
+        "id":"05",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-5.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    },
+    {
+        "id":"06",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-5.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    },  
+    {
+        "id":"07",
+        "title":"Lorem Ipsum Dolor Sit Amet",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id",
+        "details_para_one":"Donec laoreet rutrum libero sed pharetr Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetr",
+        "details_para_two":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id,",
+        "src_thumb":"../../../../images/card-ul-img-5.png",
+        "src_main":"../../../../images/card-img-slider-1.png"
+    }
+]

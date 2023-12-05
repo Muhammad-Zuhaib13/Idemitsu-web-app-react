@@ -1,0 +1,136 @@
+.main-products-card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.product-not-found-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5f5b5b;
+  padding: 0px 10px;
+  width: 80%;
+  margin: 26px auto 16px auto;
+}
+.product-card {
+  cursor: pointer;
+  border: 1px solid rgba(233, 233, 233, 1) !important;
+  transition: 0.3s ease-in-out !important;
+  box-shadow: none !important;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px !important;
+}
+@media only screen and (max-width: 991px) {
+  .product-not-found-text {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .product-page-heading-h2 {
+    font-size: 35px;
+    width: 80%;
+  }
+  .product-not-found-text {
+    width: 90%;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .product-not-found-text {
+    text-align: justify;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .main-products-card-section {
+    justify-content: space-evenly;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.product-card.css-1bmxe6u-MuiPaper-root-MuiCard-root {
+    margin: 12px;
+  }
+  .product-card {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .product-card img {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product-card {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-products-card-section {
+    justify-content: space-evenly;
+  }
+  .product-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-products-card-section {
+    justify-content: space-around;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.product-card.css-1bmxe6u-MuiPaper-root-MuiCard-root {
+    margin: 4px;
+  }
+  .product-card {
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .product-card {
+    width: 150px;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.product-card.css-1bmxe6u-MuiPaper-root-MuiCard-root {
+    margin: 8px;
+  }
+  .main-products-card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .product-card {
+    width: 130px;
+  }
+  .filter-oil-card-section {
+    width: 100%;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.product-card.css-1bmxe6u-MuiPaper-root-MuiCard-root {
+    margin: 4px;
+  }
+}
