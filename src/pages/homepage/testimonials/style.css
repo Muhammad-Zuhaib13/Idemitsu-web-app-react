@@ -252,14 +252,11 @@ p {
     width: auto;
     height: auto;
   }
-<<<<<<< HEAD
   .btn-next, .btn-prev {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-=======
->>>>>>> 5f1e256a42a94453b013165f915966d7b49ed12c
 }
 @media only screen and (max-width: 400px) {
   .testimonials-slider-container .swiper-slide {
